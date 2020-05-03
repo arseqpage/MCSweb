@@ -1,0 +1,29 @@
+/*@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,100;1,800;1,900&display=swap");
+*/
+
+@font-face {
+	src: url(../font/gulim.ttf);
+	font-family: "Gulim";
+	font-weight: normal;
+}
+
+.heading h1 {
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: underline;
+
+	font-size: 30px;
+	font-family: "gulim";
+	font-style: italic;
+
+	font-weight: 100;
+}
+
+p {
+	font-family: "Gulim";
+}
+
+.paragraph p {
+	line-height: 30px;
+	//letter-spacing: 5px;
+}
