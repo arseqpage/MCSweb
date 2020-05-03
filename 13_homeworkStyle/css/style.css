@@ -1,0 +1,99 @@
+@import url(reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@font-face {
+	src: url(../fonts/9202.otf);
+	font-family: "Helvetica";
+	font-weight: normal;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+
+	height: 200px;
+	background-color: #e5e000;
+}
+
+.header__main {
+	margin-left: 80px;
+	color: white;
+}
+
+.heading {
+	font-family: "Helvetica";
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.image {
+	height: 1080px;
+
+	background-image: url(../img/img.png);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.about {
+	height: 100px;
+
+	display: flex;
+	align-items: center;
+
+	font-family: "Helvetica";
+	text-transform: uppercase;
+	font-size: 25px;
+	background-color: #e5e000;
+	color: #fff;
+}
+
+.about__list {
+	margin-left: 80px;
+}
+
+.about__list li {
+	display: inline;
+}
+
+.about__list li::after {
+	content: " /";
+}
+
+.about__list li:last-child::after {
+	display: none;
+}
+
+.about__list a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.landing {
+	padding: 100px 0;
+}
+
+.landing__main {
+	margin: 0 80px;
+}
+
+.landing__text {
+	font-family: "Montserrat";
+	font-weight: 300;
+	font-size: 25px;
+
+	margin-top: 30px;
+}
+
+.footer {
+	height: 200px;
+	padding: 20px 0;
+
+	background-color: #e5e000;
+}
+
+.footer__container {
+	color: #fff;
+
+	margin: 80px 80px;
+	display: flex;
+	justify-content: space-between;
+}
