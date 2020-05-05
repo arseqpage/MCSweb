@@ -1,0 +1,9 @@
+li {
+	margin-top: 20px;
+}
+
+.main__link {
+	display: inline-block;
+	color: red;
+}
+
