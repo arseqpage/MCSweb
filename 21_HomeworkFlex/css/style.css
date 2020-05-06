@@ -110,4 +110,10 @@ body {
 	padding: 50px;
 
 	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer a {
+	color: white;
 }
