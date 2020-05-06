@@ -19,8 +19,11 @@ h1 {
 
 .content {
 	padding: 52px 70px;
-	display: flex;
-	justify-content: space-around;
+}
+
+.content__box {
+	width: 1000px;
+	margin: 0 auto;
 }
 
 .content__block {
@@ -29,7 +32,6 @@ h1 {
 	border-radius: 30px;
 	display: inline-block;
 
-	width: 400px;
 	padding: 33px;
 	margin-right: 50px;
 }
