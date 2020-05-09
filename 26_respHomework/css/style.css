@@ -21,11 +21,13 @@
 
 .content {
 	padding: 70px;
+
+	display: flex;
+	justify-content: space-between;
 }
 
 .columns {
-	display: flex;
-	justify-content: space-between;
+	
 }
 
 .column {
