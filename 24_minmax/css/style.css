@@ -48,3 +48,71 @@
 
 	transform: translate(-50%, -50%);
 } */
+
+/* .vh {
+	height: 30vw;
+	width: 60vh;
+
+	background-color: black;
+}
+
+.vminvmax {
+	height: 30vmax;
+	width: 40vmin;
+
+	background-color: rgb(12, 235, 41);
+} */
+
+/* html {
+	font-size: 10px;
+}
+
+.outer {
+	font-size: 20px;
+}
+
+.outer h1 {
+	font-size: 2em;
+}
+
+.outer {
+	font-size: 30px;
+}
+
+.outer2 p {
+	font-size: 2rem;
+} */
+
+.columns1 {
+	min-height: 500px;
+	border: 1ps solid red;
+
+	display: flex;
+}
+
+.column.two {
+	width: 240px;
+	height: 720px;
+	background-color: orange;
+}
+
+.column.one {
+	height: 1020px;
+	width: calc(100% - 240px);
+	background-color: navy;
+}
+
+.columns2 {
+	min-height: 500px;
+	border: 1ps solid red;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.column1 {
+	width: calc((100% - 40px) / 3); /*Ширина родителя минус сумма отступов и делить на количество колонок*/
+	height: 100px;
+
+	background-color: red;
+}
