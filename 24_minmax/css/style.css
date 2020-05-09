@@ -1,0 +1,50 @@
+@import url(reset.css);
+/* div {
+	width: 200px;
+	min-height: 300px;
+	border: 1px solid red;
+} */
+
+/* .max {
+	height: 100px;
+	background-color: blue;
+
+	max-width: 1000px;
+
+	margin: auto;
+} */
+
+/* .outer {
+	height: 300px;
+	width: 80%;
+
+	margin: auto;
+	background-color: black;
+}
+
+.inner {
+	height: 100px;
+	width: 70%;
+
+	background-color: blue;
+}
+
+.round {
+	width: 200px;
+	height: 200px;
+	background-color: orange;
+
+	border-radius: 50%;
+}
+
+.popup {
+	position: fixed;
+	width: 500px;
+	height: 200px;
+
+	border: 2px solid red;
+	top: 50%;
+	left: 50%;
+
+	transform: translate(-50%, -50%);
+} */
