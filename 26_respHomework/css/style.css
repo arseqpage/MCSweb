@@ -24,10 +24,7 @@
 
 	display: flex;
 	justify-content: space-between;
-}
-
-.columns {
-	
+	align-items: baseline;
 }
 
 .column {

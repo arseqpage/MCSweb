@@ -27,7 +27,7 @@ body {
 }
 
 .content__box {
-	width: 600px;
+	width: 48%;
 	height: 300px;
 
 	border: 5px solid #000;
@@ -50,16 +50,17 @@ body {
 }
 
 /* Large desktops and laptops */
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 1200px) {
+	.content__box {
+		width: 600px;
+		height: 300px;
+	}
 }
 
 /* Portrait tablets and medium desktops */
 @media (max-width: 1199px) {
 	.content {
 		padding: 10px 10px;
-	}
-	.content__box {
-		width: 100%;
 	}
 }
 
