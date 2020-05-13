@@ -23,40 +23,51 @@
 
 	<div class="page">
 		<form>
-			<fieldset class="personal">
-				<label for="fio">ФИО</label>
-				<input type="text" name="fio" placeholder="Петров Петр Петрович">
 
-				<label for="email">E-Mail</label>
-				<input type="email" name="email" placeholder="kek@example.com">
+			<div class="column one">
+				<fieldset class="personal">
+					<label for="fio">ФИО</label>
+					<input type="text" name="fio" placeholder="Петров Петр Петрович">
 
-				<label for="pass">Password</label>
-				<input type="password" name="pass">
+					<label for="email">E-Mail</label>
+					<input type="email" name="email" placeholder="kek@example.com">
 
-				<label for="birth">Date of birth</label>
-				<input type="date" name="birth" placeholder="kek@example.com">
-			</fieldset>
+					<label for="pass">Password</label>
+					<input type="password" name="pass">
 
-			<fieldset class="type">
-				<label for="client">Heve you been here before?</label>
-				<input type="radio" name="client" value="yes"><span>Yes</span>
-				<input type="radio" name="client" value="no"><span>No</span>
+					<label for="birth">Date of birth</label>
+					<input type="date" name="birth" placeholder="kek@example.com">
+				</fieldset>
+			</div>
 
-				<label for="purpose">Why you wright me?</label>
-				<select name="purpose">
-					<option value="good">Feel good</option>
-					<option value="bad">Feel bad</option>
-				</select>
-			</fieldset>
 
-			<fieldset class="message">
-				<label for="message">Your message</label>
-				<textarea name="message">Your message</textarea>
+			<div class="column two">
 
-				<input type="checkbox" checked="true"> <span>Agree to rools of confedence</span>
-			</fieldset>
+				<fieldset class="type">
+					<label for="client">Heve you been here before?</label>
+					<input type="radio" name="client" value="yes"><span>Yes</span>
+					<input type="radio" name="client" value="no"><span>No</span>
 
-			<input type="submit">
+					<label for="purpose">Why you wright me?</label>
+					<select name="purpose">
+						<option value="good">Feel good</option>
+						<option value="bad">Feel bad</option>
+					</select>
+				</fieldset>
+
+				<fieldset class="message">
+					<label for="message">Your message</label>
+					<textarea name="message">Your message</textarea>
+
+					<input type="checkbox" checked="true"> <span>Agree to rools of confedence</span>
+				</fieldset>
+				
+				<input type="submit">
+			</div>
+
+
+
+			
 		</form>
 	</div>
 </body>
