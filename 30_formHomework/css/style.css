@@ -1,0 +1,120 @@
+@import url(reset.css);
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.header,
+.footer {
+	height: 90px;
+	padding: 33px 50px;
+	font-size: 20px;
+
+	background-color: #f8bfc7;
+	display: flex;
+	align-items: center;
+}
+
+.header__links > li {
+	display: inline-block;
+
+	margin-right: 30px;
+}
+
+.header__link {
+	text-decoration: none;
+	text-transform: uppercase;
+
+	color: #000;
+}
+
+.main {
+	background-image: url(../img/background.png);
+
+	padding: 90px;
+	height: 650px;
+
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+form {
+	width: 20%;
+}
+
+.main__form {
+	height: 100%;
+
+	padding: 30px;
+
+	background-color: #f8bfc7;
+	border: 3px solid #ffffff;
+	border-radius: 20px;
+
+	font-size: 20px;
+}
+
+input::placeholder {
+	color: white;
+}
+
+input[type="text"],
+input[type="email"] {
+	font-family: serif;
+}
+
+input[type="text"],
+input[type="email"],
+label {
+	display: block;
+	border: none;
+	margin-bottom: 15px;
+	width: 100%;
+	font-size: 20px;
+	outline: none;
+
+	color: #ffffff;
+	background-color: #f8bfc7;
+}
+
+input[type="text"],
+input[type="email"] {
+	border-bottom: 1px solid #fff;
+	color: #fff;
+}
+
+input[type="submit"] {
+	margin: auto;
+	display: block;
+
+	background-color: #feb700;
+	border: 3px solid #ffffff;
+	box-sizing: border-box;
+	border-radius: 50px;
+	margin-top: 10px;
+
+	text-transform: uppercase;
+	padding: 25px 38px;
+	color: #fff;
+	font-size: 20px;
+}
+
+.way {
+	background-color: #336fd1;
+	height: 200px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.way__header {
+	color: #feb700;
+	font-size: 50px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.footer {
+	text-transform: uppercase;
+	display: flex;
+	justify-content: space-between;
+	color: #fff;
+}
